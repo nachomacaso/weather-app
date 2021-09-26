@@ -1,0 +1,63 @@
+@import '~antd/dist/antd.css';
+
+.ant-modal-header {
+  border: none !important;
+  padding: 25px;
+}
+
+.ant-modal-title {
+  font-size: 22px;
+}
+
+.ant-modal-close-x {
+  font-size: 20px;
+}
+
+.ant-modal-body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 45px;
+}
+
+.today {
+  font-weight: 800;
+}
+
+.weather-row {
+  padding-top: 20px;
+}
+
+.weather-row:nth-of-type(2) {
+  padding-bottom: 40px;
+}
+
+.weather-state {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.temp {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.min-max {
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+.wind-speed {
+  font-size: 18px;
+}
+
+.ant-image-img {
+  width: 40%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+}

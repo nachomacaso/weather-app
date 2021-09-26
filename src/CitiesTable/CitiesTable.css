@@ -1,0 +1,24 @@
+@import '~antd/dist/antd.css';
+
+.cities-container {
+  justify-content: center;
+  display: flex;
+  padding: 100px 0;
+  max-width: 500px;
+  margin: auto;
+}
+
+.details-link {
+  background: none;
+  border: none;
+  color: #069;
+  cursor: pointer;
+}
+
+.ant-list-bordered {
+  width: 100%;
+}
+
+.ant-list-empty-text {
+  padding: 50px;
+}

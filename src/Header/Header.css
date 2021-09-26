@@ -1,0 +1,32 @@
+@import '~antd/dist/antd.css';
+
+.header-container {
+  background: #F6CA56;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.search-box {
+  min-width: 375px;
+}
+
+.ant-btn-primary {
+  background: #525252;
+  border-color: #525252;
+}
+
+.ant-btn-primary:hover {
+  background: #669829;
+  border-color: #669829;
+}
+
+.title {
+  color: #FFF;
+}
+
+.ant-input-group-wrapper {
+  width: 90%;
+}
